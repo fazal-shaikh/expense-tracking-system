@@ -4,6 +4,16 @@ A full-stack financial expense tracking application featuring a modern **Streaml
 
 ---
 
+## 📸 Application Screenshots
+
+### 📊 Analytics & Insights Dashboard
+![Analytics & Insights Dashboard](assets/analytics_dashboard_ui.png)
+
+### 📝 Add & Manage Expenses Interface
+![Add & Manage Expenses Interface](assets/add_manage_expenses_ui.png)
+
+---
+
 ## 🌟 Key Features
 
 - **🎨 Modern Glassmorphic UI**: High-end FinTech dark theme with responsive typography and styled card containers.
@@ -17,6 +27,9 @@ A full-stack financial expense tracking application featuring a modern **Streaml
 ## 📁 Repository Structure
 
 ```
+├── assets/
+│   ├── analytics_dashboard_ui.png # Analytics dashboard screenshot
+│   └── add_manage_expenses_ui.png # Expense entry interface screenshot
 ├── backend/
 │   ├── server.py             # FastAPI REST endpoints (/expenses, /analytics/summary)
 │   ├── db_helper.py          # Database connector (MySQL + SQLite fallback)
